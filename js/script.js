@@ -19,8 +19,9 @@ createApp({
         },
     },   
     created(){
-        setInterval(() => {
+        setTimeout(() => {
             this.generateRandomEmail();
         }, 3000);
+        clearTimeout();
     }
 }).mount ('#app')
