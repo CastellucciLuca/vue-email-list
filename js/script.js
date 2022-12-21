@@ -19,6 +19,8 @@ createApp({
         },
     },   
     created(){
-        this.generateRandomEmail();
+        setInterval(() => {
+            this.generateRandomEmail();
+        }, 3000);
     }
 }).mount ('#app')
