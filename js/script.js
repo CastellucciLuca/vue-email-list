@@ -14,7 +14,7 @@ createApp({
                     const result = response.data.response;
                     console.log(result);
                     this.emailList.push(result);
-                });
+                });                
             }
         },
     },   

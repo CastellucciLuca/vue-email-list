@@ -19,7 +19,7 @@
                 </div>
                 <div class="col-12">
                     <ul v-if="emailList.length == 10" >
-                        <li v-for="(email,index) in emailList">{{emailList[index] }}</li>
+                        <li v-for="(email,index) in emailList">{{email}}</li>
                     </ul>
                     <ul v-else>
                         <li>Generazione Email in corso</li>
